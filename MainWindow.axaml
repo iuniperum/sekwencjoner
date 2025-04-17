@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="400"
+        x:Class="lab7.MainWindow"
+        Title="lab7">
+        <Grid>
+                <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBox x:Name="sekwencja" Grid.Row="1" Height="20" Width="700" HorizontalAlignment="Center"></TextBox>
+                <Button Grid.Row="2" HorizontalAlignment="Center" Margin="5"
+                        Click="zlicz"
+                        Content="Zliczanie"></Button>
+                <TextBox x:Name="wynik" Grid.Row="5" Height="200" Width="700" HorizontalAlignment="Center"></TextBox>
+        </Grid>
+</Window>
