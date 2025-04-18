@@ -64,3 +64,4 @@
 /home/hoda/RiderProjects/lab7/lab7/obj/Debug/net9.0/lab7.csproj.Up2Date
 /home/hoda/RiderProjects/lab7/lab7/obj/Debug/net9.0/lab7.genruntimeconfig.cache
 /home/hoda/RiderProjects/lab7/lab7/obj/Debug/net9.0/ref/lab7.dll
+/home/hoda/RiderProjects/lab7/lab7/obj/Debug/net9.0/lab7.sourcelink.json
